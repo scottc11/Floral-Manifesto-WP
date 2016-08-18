@@ -1,0 +1,10 @@
+
+.book-container {
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.book-image-container img {
+  max-width: 100%;
+}
