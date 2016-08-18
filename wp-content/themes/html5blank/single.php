@@ -59,9 +59,7 @@
 
 
 						<div class="heading-stitch-divider col-xs-12 col-md-8">
-							<div class="heading-stitch-divider">
-
-							</div>
+							<div class="heading-stitch-divider"></div>
 						</div>
 
 
