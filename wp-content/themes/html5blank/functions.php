@@ -258,6 +258,7 @@ function html5wp_pagination()
     ));
 }
 
+
 // Custom Excerpts
 function html5wp_index($length) // Create 20 Word Callback for Index page Excerpts, call using html5wp_excerpt('html5wp_index');
 {
