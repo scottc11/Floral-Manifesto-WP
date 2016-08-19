@@ -13,20 +13,16 @@
 
 
 					<!-- section -->
-					<section>
+					<section class="articles-container">
 
-						<!-- <h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1> -->
+						<?php get_template_part('homepage-loop'); ?>
 
-						<?php get_template_part('loop'); ?>
-
-						<?php get_template_part('pagination'); ?>
+						<a href="#">More Articles</a>
 
 					</section>
 					<!-- /section -->
 
 		</div>
 	</main>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

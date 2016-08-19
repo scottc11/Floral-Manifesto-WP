@@ -147,6 +147,10 @@ h3 {
 /*        HOME PAGE ARTICLES            */
 /*--------------------------------------*/
 
+.articles-container {
+  text-align: center;
+}
+
 .article {
   height: 400px;
   margin-top: 10px;
