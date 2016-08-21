@@ -29,7 +29,7 @@
 
 
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-					<!-- SUB_ARTICLES CONTAINER 				 -->
+					<!-- SUB ARTICLES CONTAINER 				 -->
 					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 					<section id="sub-articles">
@@ -56,7 +56,7 @@
 
 	                <!-- READING LIST -->
 	                <div class="col-xs-12 col-md-6">
-	                  <a href="Floral-Manifesto-wp/reading_list.php">
+	                  <a href="http://localhost:8888/Floral-Manifesto-wp/reading-list-2/">
 	                    <div id="reading-list" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/reading_list_image.jpg');">
 	                      <div class="sub-article-header">
 	                        <img src="<?php echo get_template_directory_uri(); ?>/img/reading_list.png" alt="Reading List" />

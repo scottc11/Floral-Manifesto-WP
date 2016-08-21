@@ -29,10 +29,35 @@ h1 {
   color: #272727;
 }
 
+h2 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
 h3 {
   font-family: 'Eczar', serif;
   font-weight: bold;
   color: #272727;
+}
+
+h5 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*--------------------------------------*/
+/*        GLOBAL CLASSES                */
+/*--------------------------------------*/
+
+.margin-top-bottom {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 
