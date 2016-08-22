@@ -21,17 +21,22 @@ Template Name: Basic Template
         <!-- PLACE ALL CONTENT HERE -->
 
         <div class="row">
-          <div class="col-xs-12">
+
+          <div class="col-xs-12 col-md-8">
             <h1><?php the_title(); ?></h1>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-xs-12">
+
+
+          <div class="col-xs-12 col-md-8">
 
             <?php the_content(); ?>
 
           </div>
+
+
+          <?php get_sidebar('about-me'); ?>
+
         </div>
 
 
@@ -46,6 +51,10 @@ Template Name: Basic Template
       <?php endif; ?>
 
     </article>
+
+
+
+
 
   </section>
 
