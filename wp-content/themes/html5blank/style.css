@@ -13,6 +13,39 @@
 
 /*INSERT CSS REFERENCES HERE*/
 
+/*
+
+Colors
+Pink #fef1f1
+Yellow #fbfcca
+Purple #e2e2f4
+Text/headings #272727
+
+Fonts
+Eczar
+https://fonts.google.com/specimen/Eczar?category=Serif
+Headings/titles: Bold
+
+Open Sans
+https://fonts.google.com/specimen/Open+Sans?category=Serif&selection.family=Open+Sans&query=open+sans
+Paragraph text: Regular
+
+Web Address
+https://floralmanifesto.com/
+https://floralmanifesto.com/wp-admin
+
+Instagram
+https://www.instagram.com/floral.manifesto
+
+Video
+https://www.youtube.com/watch?v=WAu-vTt7kw4
+
+Log on details for Wordpress blog
+username: celkin@me.com
+password: neasden123
+Site: floralmanifesto
+
+*/
 
 
 
@@ -36,6 +69,12 @@ h2 {
 }
 
 h3 {
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: #272727;
+}
+
+h4 {
   font-family: 'Eczar', serif;
   font-weight: bold;
   color: #272727;
@@ -143,8 +182,46 @@ p {
 }
 
 /*--------------------------------------*/
-/*      STITCH DIVIDERS AND HEADING     */
+/*        SIDEBARS AND WIDGETS          */
 /*--------------------------------------*/
+
+.sidebar-widget div ul {
+
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-widget div ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.sidebar-widget div ul li a {
+  background-color: #fef1f1;
+  color: black;
+}
+
+.search-input {
+  width: 80%;
+  border: none;
+  background-color: #fef1f1;
+  padding: 5px;
+}
+
+.widget_archive ul li {
+  display: inline-block;
+}
+
+.widget_categories ul li {
+  display: inline-block;
+}
+
+
+
+/*---------------------------------------------*/
+/*   STITCH DIVIDERS AND HOME-PAGE HEADINGS    */
+/*---------------------------------------------*/
 
 .stitch-divider img {
   width: 100%;

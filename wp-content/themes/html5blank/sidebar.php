@@ -1,7 +1,9 @@
 <!-- sidebar -->
-<aside class="sidebar" role="complementary">
+<aside class="sidebar col-xs-12 col-md-4" role="complementary">
 
-	<div class="col-xs-12 col-md-4">
+	<div>
+
+		<h3>Look for it</h3>
 		<?php get_template_part('searchform'); ?>
 
 
@@ -26,12 +28,7 @@
 			<div class="heading-stitch-divider"></div>
 		</div>
 
-		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-
-		<div class="sidebar-widget">
-			<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-2')) ?>
-		</div>
 	</div>
 
 
