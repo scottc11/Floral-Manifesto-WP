@@ -37,7 +37,7 @@ Template Name: Reading List
             <div class="book-image-container">
               <img src="<?php echo get_template_directory_uri(); ?>/img/readinglist/the-argonauts.png" alt="" />
             </div>
-            <h2>The Argonauts, Maggie Nelson: Maggie Nelson’s</h2>
+            <h2>The Argonauts, Maggie Nelson</h2>
             <p>
               The Argonauts is everything that I want to be as a writer. Seen as one of the pioneering texts in the genre known as “auto-theory,” Nelson artfully blends memoir and critical theory in order to tell the story of becoming a mother at the same time as her partner is transitioning. Nelson’s text also grapples with the ethics of writing, of representation, and radical intimacy. After I finished reading The Argonauts, I laid down and had a gentle cry.
             </p>

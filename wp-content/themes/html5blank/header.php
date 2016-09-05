@@ -50,22 +50,13 @@
 						</div>
 
 						<div class="slogan-container col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/fff.png" alt="Feminism. Fashion. Floral." />
+							<img src="<?php echo get_template_directory_uri(); ?>/img/feminism_fashion_floral_top.png" alt="Feminism. Fashion. Floral." />
 						</div>
 
 						<div class="stitch-divider-header col-xs-12 col-md-8 col-md-offset-2">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_corroded.png" alt="" />
 						</div>
 
-						<!-- <div class="header-nav col-xs-12 col-md-8 col-md-offset-2">
-							<ul>
-								<li><a href="#">About</a></li>
-								<li><img class="stitch-star" src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_star.png" alt="x" /></li>
-								<li><a href="#">CV/Press</a></li>
-								<li><img class="stitch-star" src="<?php echo get_template_directory_uri(); ?>/img/cross_stitch_star.png" alt="x" /></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
-						</div> -->
 
 						<!-- nav -->
 						<nav class="header-nav col-xs-12 col-md-8 col-md-offset-2" role="navigation">

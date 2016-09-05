@@ -86,7 +86,7 @@
 	              <div class="row">
 	                <div class="heading-stitch-divider col-xs-12">
 	                  <div class="stitch-heading">
-	                    <img src="<?php echo get_template_directory_uri(); ?>/img/video.png" alt="Video" />
+	                    <img src="<?php echo get_template_directory_uri(); ?>/img/videos.png" alt="Video" />
 	                  </div>
 	                </div>
 	              </div>

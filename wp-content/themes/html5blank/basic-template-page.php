@@ -28,7 +28,7 @@ Template Name: Basic Template
 
 
 
-          <div class="col-xs-12 col-md-8">
+          <div class="basic-template-content col-xs-12 col-md-8">
 
             <?php the_content(); ?>
 
@@ -36,6 +36,8 @@ Template Name: Basic Template
 
 
           <?php get_sidebar('about-me'); ?>
+
+          <?php get_sidebar('sidebar'); ?>
 
         </div>
 
