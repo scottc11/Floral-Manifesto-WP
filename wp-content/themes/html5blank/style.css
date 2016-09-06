@@ -105,7 +105,6 @@ p {
 /*--------------------------------------*/
 
 .header-background {
-  background-image: url('img/top_banner.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -471,7 +470,6 @@ p {
 /*--------------------------------------*/
 
 .footer-background {
-  background-image: url('img/bottom_banner.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

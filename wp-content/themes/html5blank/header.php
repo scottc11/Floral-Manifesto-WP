@@ -40,7 +40,7 @@
 		<!-- header -->
 		<header role="banner">
 
-			<div class="header-background">
+			<div class="header-background" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/header_banner.png);" >
 				<div class="header-container container">
 
 					<div class="row">

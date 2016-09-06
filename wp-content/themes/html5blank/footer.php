@@ -1,7 +1,7 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
-				<div class="footer-background">
+				<div class="footer-background" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/footer_banner.png);">
 
 					<div class="footer-container container">
 
@@ -30,7 +30,7 @@
 
 
 
-				
+
 
 			</footer>
 			<!-- /footer -->

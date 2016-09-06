@@ -30,7 +30,6 @@
 								<a class="post-background-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 									<!-- POST THUMBNAIL GOES IN DIV BACKGROUND -->
 									<div class="post-background-img" style="background-image: url(<?php the_post_thumbnail_url(); ?>);"></div>
-
 								</a>
 							<?php endif; ?>
 							<!-- /post thumbnail -->
@@ -76,8 +75,9 @@
 
 						<!-- post thumbnail -->
 						<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-								<?php the_post_thumbnail(array(400,400)); // Declare pixel size you need inside the array ?>
+							<a class="post-background-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+								<!-- POST THUMBNAIL GOES IN DIV BACKGROUND -->
+								<div class="post-background-img" style="background-image: url(<?php the_post_thumbnail_url(); ?>);"></div>
 							</a>
 						<?php endif; ?>
 						<!-- /post thumbnail -->

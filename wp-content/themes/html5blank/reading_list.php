@@ -28,6 +28,37 @@ Template Name: Reading List
       </div>
 
 
+			<!-- START OF LOOP -->
+			<?php
+
+				// define the post type for the loop
+				$args = array(
+					'post_type' => 'fm_reading',
+					'supports' => array('title','editor','custom-fields')
+				);
+
+				// Create a new WP loop query and hand it the custom post type arguments
+				$loop = new WP_Query( $args );
+
+				if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post();
+
+			?>
+
+			<section class="row">
+
+				<div class="row">
+					
+				</div>
+
+			</section>
+
+
+			<!-- END OF LOOP -->
+			<?php endwhile; else: ?>
+				<p><?php _e( 'The Reading you are looking for could not be found.' ); ?></p>
+			<?php endif; ?>
+
+
       <!-- THE BOOKS -->
       <div class="row">
 
