@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Reading List
+Template Name: Boss Ladies
 */
 ?>
 

@@ -13,6 +13,8 @@ Template Name: Basic Template
 
   <section class="container">
 
+
+
     <article class="margin-top-bottom">
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -22,11 +24,11 @@ Template Name: Basic Template
 
         <div class="row">
 
-          <div class="col-xs-12 col-md-8">
+          <div class="col-xs-12 col-sm-12 col-md-8">
             <h1><?php the_title(); ?></h1>
           </div>
 
-
+          <div class="heading-stitch-divider col-xs-12 col-md-8 margin-bottom-20" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/blank_header_line.png);"></div>
 
           <div class="basic-template-content col-xs-12 col-md-8">
 

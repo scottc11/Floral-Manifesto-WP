@@ -7,7 +7,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+  .basic-template-content {
+    min-height: 0;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -18,7 +20,11 @@
   }
 
   .heading-stitch-divider {
-    background: none;
+    /*background: none;*/
+  }
+
+  .basic-template-content {
+    min-height: 0;
   }
 }
 
@@ -40,5 +46,5 @@
 }
 
 @media only screen and (max-width : 400px) {
-  
+
 }

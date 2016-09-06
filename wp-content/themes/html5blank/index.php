@@ -4,7 +4,7 @@
 		<div class="container">
 
 					<div class="row">
-						<div class="heading-stitch-divider col-xs-12">
+						<div class="heading-stitch-divider col-xs-12" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/blank_header_line.png);">
 							<div class="stitch-heading">
 								<img src="<?php echo get_template_directory_uri(); ?>/img/articles.png" alt="ARTICLES" />
 							</div>
@@ -37,9 +37,7 @@
 	            <div class="sub-articles-container container">
 
 	              <div class="row">
-	                <div class="stitch-divider col-xs-12">
-	                  <img src="<?php echo get_template_directory_uri(); ?>/img/blank_header.png" alt="" />
-	                </div>
+	                <div class="heading-stitch-divider col-xs-12" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/blank_header_line.png);"></div>
 	              </div>
 
 
@@ -47,11 +45,13 @@
 	              <div class="row">
 
 	                <div class="col-xs-12 col-md-6">
-	                  <div id="boss-ladies" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/boss_ladies_image.jpg');">
-	                    <div class="sub-article-header">
-	                      <img src="<?php echo get_template_directory_uri(); ?>/img/boss_ladies.png" alt="Boss Ladies" />
-	                    </div>
-	                  </div>
+										<a href="http://localhost:8888/Floral-Manifesto-wp/boss-ladies/">
+		                  <div id="boss-ladies" class="sub-article" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/boss_ladies_image.jpg');">
+		                    <div class="sub-article-header">
+		                      <img src="<?php echo get_template_directory_uri(); ?>/img/boss_ladies.png" alt="Boss Ladies" />
+		                    </div>
+		                  </div>
+										</a>
 	                </div>
 
 	                <!-- READING LIST -->
@@ -84,9 +84,9 @@
 	            <div class="video-container container">
 
 	              <div class="row">
-	                <div class="heading-stitch-divider col-xs-12">
+	                <div class="heading-stitch-divider col-xs-12" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/blank_header_line.png);">
 	                  <div class="stitch-heading">
-	                    <img src="<?php echo get_template_directory_uri(); ?>/img/videos.png" alt="Video" />
+	                    <img src="<?php echo get_template_directory_uri(); ?>/img/videos.png" alt="Videos" />
 	                  </div>
 	                </div>
 	              </div>
@@ -145,7 +145,7 @@
 							<div class="instagram-container container">
 
 								<div class="row">
-									<div class="heading-stitch-divider col-xs-12">
+									<div class="heading-stitch-divider col-xs-12" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/blank_header_line.png);">
 										<div class="stitch-heading">
 											<img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="Instagram" />
 										</div>

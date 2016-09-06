@@ -10,7 +10,7 @@
 
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-					
+
 						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 						<!-- POST TITLE AND DETAILS 				 -->
 						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -47,7 +47,7 @@
 						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
-						<div class="heading-stitch-divider col-xs-12 col-md-8">
+						<div class="heading-stitch-divider col-xs-12 col-md-8" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/blank_header_line.png);">
 							<div class="heading-stitch-divider"></div>
 						</div>
 
