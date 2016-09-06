@@ -25,7 +25,7 @@
 		<!-- <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( ‘stylesheet_url’ ); ?>"> -->
 
 		<!-- Link additional css files here -->
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/blog_posts.css">
+		<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/blog_posts.css"> -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animations.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
 

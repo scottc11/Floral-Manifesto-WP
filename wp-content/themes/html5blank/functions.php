@@ -62,6 +62,21 @@ if (function_exists('add_theme_support'))
     Functions
 \*------------------------------------*/
 
+
+
+
+
+// PHP to Console Debugger function
+function debug_to_console( $data ) {
+    if ( is_array( $data ) )
+        $output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
+    else
+        $output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
+    echo $output;
+}
+
+
+
 // HTML5 Blank navigation
 function html5blank_nav()
 {
