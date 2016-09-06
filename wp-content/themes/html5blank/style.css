@@ -103,6 +103,10 @@ p {
   margin-bottom: 20px;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 /*--------------------------------------*/
 /*        HEADER                        */
 /*--------------------------------------*/
@@ -189,6 +193,14 @@ p {
 
 .basic-template-content {
   min-height: 600px;
+}
+
+/*--------------------------------------*/
+/*        SINGLE POST PAGE              */
+/*--------------------------------------*/
+
+#single > p a img {
+  image-orientation: centering-div;
 }
 
 /*--------------------------------------*/
@@ -403,6 +415,35 @@ p {
   max-width: 100%;
 }
 
+
+/*--------------------------------------*/
+/*        BOSS LADIES PAGE              */
+/*--------------------------------------*/
+
+.boss-lady-container {
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.boss-lady-image-container img {
+  max-width: 100%;
+}
+
+.boss-lady-spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boss-lady-spacer h4 {
+  margin: 0;
+}
+
+.boss-lady-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 /*--------------------------------------*/
 /*        VIDEO                         */

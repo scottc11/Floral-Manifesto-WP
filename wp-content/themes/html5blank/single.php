@@ -59,7 +59,7 @@
 						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
-						<div class="col-xs-12 col-md-8">
+						<div id="single" class="col-xs-12 col-md-8">
 
 							<?php the_content(); // Dynamic Content ?>
 
