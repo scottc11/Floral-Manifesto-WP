@@ -276,6 +276,7 @@ function my_remove_recent_comments_style()
     ));
 }
 
+
 // Pagination for paged posts, Page 1, Page 2, Page 3, with Next and Previous Links, No plugin
 function html5wp_pagination()
 {
