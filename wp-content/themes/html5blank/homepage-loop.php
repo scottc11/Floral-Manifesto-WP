@@ -24,7 +24,7 @@
 				<div class="article col-xs-12 col-sm-12 col-md-8">
 					<div id="latest-post" class="article-preview-container">
 
-						<div class="post-background">
+						<div id="latest-post-background">
 							<!-- post thumbnail -->
 							<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 								<a class="post-background-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -36,7 +36,7 @@
 						</div>
 
 						<div id="post-header-shell">
-							<div class="latest-post-header-container">
+							<div id="latest-post-header-container">
 								<h1 class="post-title post-header">
 									<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 								</h1>
@@ -84,8 +84,9 @@
 
 					</div>
 
-					<!-- this is just a hack to position the next div -->
-					<div class="post-image-shell"></div>
+					<div class="post-image-shell">
+
+					</div>
 
 					<div class="sub-post-header-container">
 						<div class="sub-post-header-shell">
@@ -97,7 +98,9 @@
 							</h3>
 						</div>
 					</div>
+
 				</div>
+				<!-- /article containter -->
 
 			</div>
 
