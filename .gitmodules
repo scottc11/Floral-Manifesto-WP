@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/ManifestoTheme"]
+	path = wp-content/themes/ManifestoTheme
+	url = https://github.com/scottc11/Manifesto-Theme.git
