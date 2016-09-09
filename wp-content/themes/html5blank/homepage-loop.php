@@ -90,7 +90,11 @@
 
 					<div class="sub-post-header-container">
 						<div class="sub-post-header-shell">
-							<h1 class="post-title sub-post-header"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+
+							<h1 class="post-title sub-post-header">
+								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+							</h1>
+
 							<h3 class="post-date sub-post-date-header">
 								<time datetime="<?php the_time('Y-m-d'); ?> <?php the_time('H:i'); ?>">
 									<?php the_date(); ?> <?php the_time(); ?>
